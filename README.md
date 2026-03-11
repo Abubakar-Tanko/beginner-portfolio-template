@@ -1,11 +1,6 @@
-Beginner Portfolio Website Template
+# Beginner Portfolio Template
 
-This is a simple HTML & CSS portfolio template for beginner developers.
+This is a simple HTML portfolio page for beginner developers.  
+It’s a free demo to showcase the design.  
 
-Features
-- Clean design
-- Easy to customize
-- Perfect for student portfolios
-
-Download the full customizable version here:
-https://tankoabu.gumroad.com/l/cplmqc
+Download the full customizable version here: https://tankoabu.gumroad.com/l/cplmqc
