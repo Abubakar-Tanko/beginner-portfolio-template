@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Creative Portfolio</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:#e5e7eb;
+  line-height:1.6;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px;
+  background:linear-gradient(135deg,#6366f1,#22d3ee);
+}
+
+.hero-box{
+  background:rgba(255,255,255,0.12);
+  backdrop-filter:blur(15px);
+  padding:60px;
+  border-radius:25px;
+  max-width:700px;
+}
+
+.hero h1{
+  font-size:3rem;
+  font-weight:700;
+}
+
+.hero span{
+  color:#0f172a;
+  background:#fff;
+  padding:4px 12px;
+  border-radius:10px;
+}
+
+.hero p{
+  margin:20px 0 30px;
+  font-size:1.1rem;
+}
+
+.hero button{
+  padding:15px 30px;
+  border:none;
+  border-radius:30px;
+  background:#0f172a;
+  color:#fff;
+  font-size:1rem;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.hero button:hover{
+  background:#020617;
+}
+
+/* SECTIONS */
+section{
+  padding:80px 10%;
+}
+
+h2{
+  font-size:2.2rem;
+  margin-bottom:30px;
+  text-align:center;
+}
+
+/* SERVICES */
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.card{
+  background:#020617;
+  padding:30px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+.card h3{
+  margin-bottom:15px;
+}
+
+/* PORTFOLIO */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.project{
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.project img{
+  width:100%;
+  display:block;
+  transition:0.4s;
+}
+
+.project img:hover{
+  transform:scale(1.08);
+}
+
+/* CONTACT */
+.contact{
+  text-align:center;
+}
+
+.contact p{
+  margin-bottom:20px;
+}
+
+footer{
+  background:#020617;
+  padding:20px;
+  text-align:center;
+  font-size:0.9rem;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero h1{font-size:2.2rem;}
+  section{padding:60px 6%;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-box">
+    <h1>I Build <span>Modern Websites</span></h1>
+    <p>Clean, responsive, and high-performance websites that help brands stand out online.</p>
+    <button>View My Work</button>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section>
+  <h2>What I Do</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Website Development</h3>
+      <p>Custom-built websites using clean HTML, CSS, and modern layouts.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive Design</h3>
+      <p>Mobile-first designs that look perfect on all devices.</p>
+    </div>
+    <div class="card">
+      <h3>Landing Pages</h3>
+      <p>High-converting landing pages designed to capture attention.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section>
+  <h2>Sample Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <img src="https://via.placeholder.com/600x400" alt="">
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/600x400" alt="">
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/600x400" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Let’s Work Together</h2>
+  <p>Need a professional website? Let’s bring your idea to life.</p>
+</section>
+
+<footer>
+  © 2026 | Sample Portfolio Website
+</footer>
+
+</body>
+</html>
